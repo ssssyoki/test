@@ -1,0 +1,11 @@
+framework module BBBBB {
+  umbrella header "BBBBB.h"
+
+  export *
+  module * { export * }
+}
+
+module BBBBB.Swift {
+    header "BBBBB-Swift.h"
+    requires objc
+}
